@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 2rem;
+  width: 100%;
+  margin-bottom: 10vw;
+}
+.boxArea {
+  width: 900px;
+  height: 900px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.boxArea .square {
+  height: 250px;
+  width: 250px;
+  border: 1px solid red;
+}
+.boxArea .square img {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxArea .square p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 754px;
+}
+
+.header {
+  height: 191px;
+  margin-bottom: 10px;
+  background-color: rgba(146, 238, 212, 0.997);
+}
+
+.content .topContent {
+  display: flex;
+  justify-content: space-around;
+}
+.content .topContent .box {
+  height: 180px;
+  width: 180px;
+  margin: 10px;
+  background-color: rgba(146, 238, 212, 0.997);
+}
+.content .bottonContent {
+  margin-top: 10px;
+  display: flex;
+}
+.content .bottonContent .titleBox {
+  height: 300px;
+  width: 60%;
+  background-color: rgba(146, 238, 212, 0.997);
+}
+.content .bottonContent .titleText {
+  width: 40%;
+  margin-left: 10vw;
+  padding-top: 75px;
+}
+
+.footer {
+  height: 86px;
+  background-color: rgba(146, 238, 212, 0.997);
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */

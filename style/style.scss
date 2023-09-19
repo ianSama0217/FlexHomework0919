@@ -1,0 +1,91 @@
+$themeColor: rgba(146, 238, 212, 0.997);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// 瀏覽器網頁沒有固定的高度(height),因此設定時必須給明確的高度，
+// 不能使用height:50%。但寬度(width)可以使用%。
+
+//flexbox練習
+.boxArea {
+  width: 900px;
+  height: 900px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  .square {
+    height: 250px;
+    width: 250px;
+    border: 1px solid red;
+    img {
+      height: 200px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+//frame3樣式
+.grid {
+  width: 754px;
+  // border: 2px solid black;
+}
+
+.header {
+  height: 191px;
+  // border: 2px solid red;
+  margin-bottom: 10px;
+  background-color: $themeColor;
+}
+
+.content {
+  .topContent {
+    // border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    .box {
+      height: 180px;
+      width: 180px;
+      // border: 2px solid blue;
+      margin: 10px;
+      background-color: $themeColor;
+    }
+  }
+
+  .bottonContent {
+    margin-top: 10px;
+    display: flex;
+
+    .titleBox {
+      height: 300px;
+      width: 60%;
+      // border: 2px solid red;
+      background-color: $themeColor;
+    }
+
+    .titleText {
+      width: 40%;
+      margin-left: 10vw;
+      padding-top: 75px;
+    }
+  }
+}
+
+.footer {
+  height: 86px;
+  background-color: $themeColor;
+  margin-top: 20px;
+}

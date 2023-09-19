@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 754px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+.header .topHeader {
+  height: 101px;
+  background-color: rgba(146, 238, 212, 0.997);
+}
+.header .bottonHeader {
+  height: 264px;
+  background-color: rgba(146, 238, 212, 0.5);
+}
+
+.content {
+  display: flex;
+}
+.content .leftBox {
+  height: 762px;
+  width: 202px;
+  margin-right: 20px;
+  background-color: rgba(146, 238, 212, 0.997);
+}
+.content .rightArea {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.content .rightArea .rightText {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.content .rightArea .rightText h1 {
+  font-size: 3rem;
+}
+.content .rightArea .rightText p {
+  margin: 10px 15px 0px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .rightArea .rightBox {
+  height: 600px;
+  margin: 20px 15px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content .rightArea .rightBox .box {
+  height: 175px;
+  width: 175px;
+  background-color: rgba(146, 238, 212, 0.997);
+}
+.content .rightArea .rightBox .box p {
+  margin: 175px 0px 0px 35px;
+}
+
+.footer {
+  height: 86px;
+  margin-top: 20px;
+  background-color: rgba(146, 238, 212, 0.997);
+}/*# sourceMappingURL=frame4Style.css.map */

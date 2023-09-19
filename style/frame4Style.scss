@@ -1,0 +1,80 @@
+$themeColor: rgba(146, 238, 212, 0.997);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 754px;
+  //   border: 2px solid black;
+}
+
+.header {
+  margin-bottom: 20px;
+  .topHeader {
+    height: 101px;
+    background-color: $themeColor;
+  }
+  .bottonHeader {
+    height: 264px;
+    background-color: rgba(146, 238, 212, 0.5);
+  }
+}
+
+.content {
+  display: flex;
+  .leftBox {
+    height: 762px;
+    width: 202px;
+    margin-right: 20px;
+    background-color: $themeColor;
+  }
+
+  .rightArea {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    .rightText {
+      //   border: 1px solid red;
+      display: flex;
+      flex-wrap: nowrap;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      p {
+        margin: 10px 15px 0px 15px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    .rightBox {
+      height: 600px;
+      margin: 20px 15px 0px 0px;
+      //   border: 1px solid blue;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .box {
+        height: 175px;
+        width: 175px;
+        background-color: $themeColor;
+        // border: 1px solid green;
+
+        p {
+          margin: 175px 0px 0px 35px;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  height: 86px;
+  margin-top: 20px;
+  background-color: $themeColor;
+}
